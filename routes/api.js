@@ -1,9 +1,7 @@
 const express = require("express");
-const Product_info = require('../models/ProductSchema');
 
 // Creates a new Router Object
 const router = express.Router();
-const Info = require('../models/info');
 const lcSchema = require('../models/lc');
 
 
